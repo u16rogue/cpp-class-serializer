@@ -1,7 +1,7 @@
 # cpp-class-serializer
 A C++ header only library for serializing and deserializing C++ classes into a binary format with metadata that's mostly resilient to class changes.
 
-![](carbon.png){:height="50%" width="50%"}
+![](carbon.png)
 
 # Usage
 * Include [cppcsr.hpp](../include/cppcsr.hpp)
