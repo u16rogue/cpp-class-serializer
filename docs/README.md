@@ -1,15 +1,15 @@
 # cpp-class-serializer
 A C++ header only library for serializing and deserializing C++ classes into a binary format with metadata that's mostly resilient to class changes.
 
-![](carbon.png)
+![](carbon.png){:height="50%" width="50%"}
 
 # Usage
-* Include [cppcsr.hpp](include/cppcsr.hpp)
+* Include [cppcsr.hpp](../include/cppcsr.hpp)
 * Declare member variables that you want to have a serializable metadata using the `cppcsr_member` macro.
 * Use the `cppcsr_declare_std_array` to automaticlly create an **std::array** buffer to hold the serialized class
 
 # Example
-* [main.cpp](example/main.cpp)
+* [main.cpp](../example/main.cpp)
 
 # Note / Disclaimer
 * Only supports raw data types (No string pointers, classes/structs, std containers, etc...)
