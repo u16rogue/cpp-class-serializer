@@ -12,5 +12,5 @@ A C++ header only library for serializing and deserializing C++ classes into a b
 * [main.cpp](../example/main.cpp)
 
 # Note / Disclaimer
-* Only supports raw data types (No string pointers, classes/structs, std containers, etc...)
+* Only supports raw data types (No string pointers, classes/structs, containers, etc...)
 * This was mainly made as a Proof of concept, so it might not be as good as a "reliable" library. If you're looking for one check out [cereal](https://uscilab.github.io/cereal/).
