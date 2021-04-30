@@ -111,8 +111,6 @@ namespace cppcsr
 		bool is_success = false;
 		char *deserialized_buffer = nullptr;
 
-		char test[40] = { 0 };
-
 		if (!std::filesystem::exists(file_path))
 			return false;
 
